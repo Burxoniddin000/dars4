@@ -1,11 +1,11 @@
-let elForm = document.querySelector(".form");
+let elbtn = document.querySelector(".form");
 let elInput = document.querySelector("#age");
 let elresult = document.querySelector("#result");
 let elresult2 = document.querySelector("#result2");
 let elresult3 = document.querySelector("#result3");
 let elresult4 = document.querySelector("#result4");
 
-elForm.addEventListener("submit", function (evt) {
+elbtn.addEventListener("submit", function (evt) {
   evt.preventDefault();
 
   function piyodaTezligi(elInputValue, piyoda) {
